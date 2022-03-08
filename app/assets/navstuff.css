@@ -1,0 +1,21 @@
+.bg-light {
+    --bs-bg-opacity: 1;
+    /* background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important; */
+}
+
+@media (min-width: 768px)
+.navbar-expand-md {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
